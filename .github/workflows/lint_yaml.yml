@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
       - name: Check yaml files
-        uses: opt-nc/yamlfixer-action@v1.2.1
+        uses: opt-nc/yamlfixer-action@test
         with:
           yaml_file: .github/workflows/build_hello.yml
           options: --summary
