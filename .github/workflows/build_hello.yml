@@ -1,4 +1,4 @@
-
+---
 name: Build HelloYaml
 
 # yamllint disable-line rule:truthy
@@ -17,6 +17,4 @@ jobs:
           cache: 'maven'
 
       - name: Build with Maven
-          run: mvn package
-
-
+        run: mvn package
